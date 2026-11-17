@@ -43,7 +43,6 @@ public class Automovil {
         }else {
             this.anio = anio;
         }
-
     }
     public void mostrarInformacion() {
         System.out.println(toString());
