@@ -36,7 +36,6 @@ public class Automovil {
     public int getAnio() {
         return anio;
     }
-
     public void setAnio(int anio) {
         if (anio<ANIO_PRIMER_AUTOMOVIL){
             System.out.println("Error: El año " + anio + " es inválido. Ningún automóvil puede ser anterior a " + ANIO_PRIMER_AUTOMOVIL + ".");
