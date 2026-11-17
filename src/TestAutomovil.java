@@ -13,7 +13,7 @@ public class TestAutomovil {
         Automovil autoValido = new Automovil("Ford", "Mustang", 1969);
         autoValido.mostrarInformacion();
 
-        // Intentar modificar el año mediante el setter a un valor incorrecto (ej. 1700)
+        // Intentar modificar el año mediante el setter a un valor incorrecto (ej. 1700
         System.out.println("\nIntentando actualizar el año a 1700 (inválido):");
         autoValido.setAnio(1700);
 
